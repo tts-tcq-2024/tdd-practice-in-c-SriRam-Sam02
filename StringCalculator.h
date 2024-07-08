@@ -1,5 +1,9 @@
 
 int add(const char* input)
 {
-return 0;
+   if(*input == '\0')
+  {
+   return 0;
+  }
+
 }
